@@ -1,4 +1,4 @@
-## An Clock APP
+## A Clock APP
 
 Using Handler mechanism for multi-thread communication, custom clock View.
 
