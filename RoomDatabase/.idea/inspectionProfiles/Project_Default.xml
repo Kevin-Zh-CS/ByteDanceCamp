@@ -1,0 +1,9 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="AndroidLintCI_ByteDanceKotlinRules_Enum_Fields_All_Uppercase" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintCI_ByteDanceKotlinRules_List_Contains_Not_Allow" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintCI_ByteDanceKotlinRules_Not_Allow_findViewById_Invoked_In_UI" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintCI_ByteDanceKotlinRules_Static_Names" enabled="false" level="ERROR" enabled_by_default="false" />
+  </profile>
+</component>
