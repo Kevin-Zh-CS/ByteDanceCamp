@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000044"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+<!--    <android.support.design.widget.TabLayout-->
+<!--        android:id="@+id/tabLayout"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="47dp"-->
+<!--        tools:ignore="MissingConstraints" />-->
+
+<!--    <android.support.v4.view.ViewPager-->
+<!--        android:id="@+id/view_pager"-->
+<!--        android:layout_width="430dp"-->
+<!--        android:layout_height="678dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <android.support.design.widget.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:id="@+id/home_container"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/main_tab"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+    </FrameLayout>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/main_tab"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        style="@style/tab_style"
+        android:background="#7F000000"
+        app:tabTextColor="#fff"
+        app:tabSelectedTextColor="#FF9800"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_pager"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="UnknownIdInLayout">
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/maint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      主页" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/cam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="style"
+            />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/messaget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="消息      " />
+    </android.support.design.widget.TabLayout>
+
+</android.support.constraint.ConstraintLayout>
+
+
+
+
+
