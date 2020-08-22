@@ -6,7 +6,7 @@ Next I will show part of the functions of `MiniTikTok` in turn.
 
 * Click the app icon to enter MiniTikTok, the start screen displays 3s.
 
-<img src="gif/start.gif" style="zoom:50%;" />
+<img src="gif/start.gif" style="zoom:50%;" width="50%" height="50%"/>
 
 
 
